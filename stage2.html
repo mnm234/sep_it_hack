@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>ステージ２</title>
+  <link rel="stylesheet" href="./css/stage1.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+</head>
+
+<body id="stage1_back">
+  <center>
+    <header>
+      <h1 class="stageName">ステージ２</h1>
+    </header>
+    <h2 class="stageName">指令：<span id="blue">エリア</span>(<span id="blue">blue</span>)に<span id="red">丸</span>(<span id="red">red</span>)を入れよ</h2>
+    <div class="ui input" id="inputLine">
+      <input type="text" placeholder="Code..." id="codeEditer">
+      <button class="ui teal button" type="submit" onclick="Run()" id="OrderButton">Order</button>
+      <button class="ui yellow button" onclick="location.href='stage2.html'" id="NextButton">Next</button>
+    </div>
+    <h1 id="clearMessage">CLEAR!!!</h1>
+  </center>
+
+
+</body>
+<script src="./js/stage1.js" charset="utf-8"></script>
+
+</html>
